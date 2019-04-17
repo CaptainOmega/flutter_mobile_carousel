@@ -4,7 +4,7 @@ Flutter carousel slider widget, allow render cells with Drag-and-drop animation.
 
 ## Installation
 
-Add `flutter_mobile_carousel: ^1.0.1` in your `pubspec.yaml` dependencies. Import the library via:
+Add `flutter_mobile_carousel: ^1.0.2` in your `pubspec.yaml` dependencies. Import the library via:
 
 ```dart
 import 'package:flutter_mobile_carousel/carousel.dart';

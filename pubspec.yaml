@@ -1,6 +1,6 @@
 name: flutter_mobile_carousel
 description: Flutter carousel slider widget, allow render cells with Drag-and-drop animation.
-version: 1.0.1
+version: 1.0.2
 author: Denis Evdokimov <googlamen007@gmail.com>
 homepage: https://github.com/CaptainOmega/flutter_mobile_carousel
 
