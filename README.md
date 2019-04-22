@@ -2,6 +2,16 @@
 
 Flutter carousel slider widget, allow render cells with Drag-and-drop animation.
 
+## Features
+
+- Easy to use API
+- Drag and drop without lags
+- Uniformly accelerated motion animation
+- Available customize carousel cells and background  
+- Auto size cells by horizontal
+- Fix cells count
+- Motion event handling
+
 ## Installation
 
 Add `flutter_mobile_carousel: ^1.0.2` in your `pubspec.yaml` dependencies. Import the library via:
