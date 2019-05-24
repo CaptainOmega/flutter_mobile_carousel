@@ -55,7 +55,7 @@ class _CarouselState extends State<Carousel> with TickerProviderStateMixin {
   static final int SHIFT_ANIMATION_DURATION = 300;
 
   /// Size of cell
-  double size;
+  double size = 0;
 
   /// Width of cells container
   double width = 0;
@@ -203,11 +203,10 @@ class _CarouselState extends State<Carousel> with TickerProviderStateMixin {
             Container(
               width: this.width,
               height: this.size,
-              child: Stack(children: [
-                Positioned(
-                  left: this.offset,
-                  child: Opacity(
-                    opacity: this.size != null ? 1 : 0,
+              child: Stack(
+                children: [
+                  Positioned(
+                    left: this.offset,
                     child: Row(
                       children: widget.children.map((child) {
                         return Container(
@@ -218,8 +217,8 @@ class _CarouselState extends State<Carousel> with TickerProviderStateMixin {
                       }).toList(),
                     ),
                   ),
-                ),
-              ]),
+                ]
+              ),
             ),
             Container(
               child: widget.rightArrow,
